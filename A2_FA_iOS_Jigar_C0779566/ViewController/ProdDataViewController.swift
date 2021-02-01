@@ -201,6 +201,8 @@ extension ProdDataTableViewController: UISearchBarDelegate {
         }
     }
     
+    // MARK: - Filter Table
+
     func filterTableView(ind:Int,text:String) {
         self.searchedData = prodList.filter({ (model) -> Bool in
             return (model.pname?.contains(text))! || (model.pdesc?.contains(text))!

@@ -31,8 +31,9 @@ class ProdDisplayViewController: UIViewController {
         
         tfprdpid.text = String(format:"%d",product.pid)
         tfprdname.text = product.pname
-        tvpdesc.text = product.pdesc
         tfprdprice.text = String(format:"CAD %.2f",product.pprice)
         tfprdpro.text = product.provider?.proname ?? ""
+        tvpdesc.text = product.pdesc
+
     }
 }
