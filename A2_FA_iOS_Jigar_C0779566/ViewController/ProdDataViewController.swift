@@ -40,14 +40,7 @@ class ProdDataTableViewController: UIViewController {
         
     }
     
-    // MARK: - Navigation Usig Segue
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destination = segue.destination as! ProdDisplayViewController
-        if let indexPath = tableView.indexPathForSelectedRow {
-            destination.product = prodList[indexPath.row]
-        }
-    }
+   
     
     
     //MARK:- Function To Get Data NSPredicate
@@ -64,6 +57,15 @@ class ProdDataTableViewController: UIViewController {
         
         tableView.reloadData()
         
+        
+        // MARK: - Navigation Usig Segue
+        
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            let destination = segue.destination as! ProdDisplayViewController
+            if let indexPath = tableView.indexPathForSelectedRow {
+                destination.product = prodList[indexPath.row]
+            }
+        }
     }
     
     
