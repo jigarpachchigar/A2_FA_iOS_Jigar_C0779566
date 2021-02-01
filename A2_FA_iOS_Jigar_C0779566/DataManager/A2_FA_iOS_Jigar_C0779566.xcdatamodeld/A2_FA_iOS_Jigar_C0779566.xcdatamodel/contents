@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Product" representedClassName="Product" syncable="YES">
+        <attribute name="pdesc" optional="YES" attributeType="String"/>
+        <attribute name="pid" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pname" optional="YES" attributeType="String"/>
+        <attribute name="pprice" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="provider" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Provider" inverseName="products" inverseEntity="Provider"/>
+    </entity>
+    <entity name="Provider" representedClassName="Provider" syncable="YES">
+        <attribute name="proname" optional="YES" attributeType="String"/>
+        <relationship name="products" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Product" inverseName="provider" inverseEntity="Product"/>
+    </entity>
+    <elements>
+        <element name="Product" positionX="26.619384765625" positionY="-12.41900634765625" width="128" height="103"/>
+        <element name="Provider" positionX="-356.3721923828125" positionY="-335.6859741210938" width="128" height="73"/>
+    </elements>
+</model>
