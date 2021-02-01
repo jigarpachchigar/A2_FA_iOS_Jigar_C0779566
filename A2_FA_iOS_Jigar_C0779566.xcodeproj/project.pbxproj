@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7453047525C6776C00C7600B /* ProdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7453047425C6776C00C7600B /* ProdTableViewCell.swift */; };
 		746D65CC25C6309C00E92B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D65CB25C6309C00E92B06 /* AppDelegate.swift */; };
 		746D65CE25C6309C00E92B06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D65CD25C6309C00E92B06 /* SceneDelegate.swift */; };
-		746D65D025C6309C00E92B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D65CF25C6309C00E92B06 /* ViewController.swift */; };
 		746D65D325C6309C00E92B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746D65D125C6309C00E92B06 /* Main.storyboard */; };
 		746D65D625C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 746D65D425C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566.xcdatamodeld */; };
 		746D65D825C6309F00E92B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746D65D725C6309F00E92B06 /* Assets.xcassets */; };
 		746D65DB25C6309F00E92B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746D65D925C6309F00E92B06 /* LaunchScreen.storyboard */; };
 		746D65E625C6309F00E92B06 /* A2_FA_iOS_Jigar_C0779566Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D65E525C6309F00E92B06 /* A2_FA_iOS_Jigar_C0779566Tests.swift */; };
 		746D65F125C6309F00E92B06 /* A2_FA_iOS_Jigar_C0779566UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D65F025C6309F00E92B06 /* A2_FA_iOS_Jigar_C0779566UITests.swift */; };
+		746D660525C632D600E92B06 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D660125C632D600E92B06 /* Product+CoreDataClass.swift */; };
+		746D660625C632D600E92B06 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D660225C632D600E92B06 /* Product+CoreDataProperties.swift */; };
+		746D660725C632D600E92B06 /* Provider+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D660325C632D600E92B06 /* Provider+CoreDataClass.swift */; };
+		746D660825C632D600E92B06 /* Provider+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D660425C632D600E92B06 /* Provider+CoreDataProperties.swift */; };
+		746D665225C658E200E92B06 /* ProdDisplayControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746D665125C658E200E92B06 /* ProdDisplayControllerViewController.swift */; };
+		748E79CE25C7EC5300D7BE0E /* ProdDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E79CD25C7EC5300D7BE0E /* ProdDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7453047425C6776C00C7600B /* ProdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdTableViewCell.swift; sourceTree = "<group>"; };
 		746D65C825C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_iOS_Jigar_C0779566.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746D65CB25C6309C00E92B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		746D65CD25C6309C00E92B06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		746D65CF25C6309C00E92B06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		746D65D225C6309C00E92B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		746D65D525C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A2_FA_iOS_Jigar_C0779566.xcdatamodel; sourceTree = "<group>"; };
 		746D65D725C6309F00E92B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		746D65EC25C6309F00E92B06 /* A2_FA_iOS_Jigar_C0779566UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A2_FA_iOS_Jigar_C0779566UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		746D65F025C6309F00E92B06 /* A2_FA_iOS_Jigar_C0779566UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_FA_iOS_Jigar_C0779566UITests.swift; sourceTree = "<group>"; };
 		746D65F225C6309F00E92B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746D660125C632D600E92B06 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		746D660225C632D600E92B06 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		746D660325C632D600E92B06 /* Provider+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Provider+CoreDataClass.swift"; sourceTree = "<group>"; };
+		746D660425C632D600E92B06 /* Provider+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Provider+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		746D665125C658E200E92B06 /* ProdDisplayControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdDisplayControllerViewController.swift; sourceTree = "<group>"; };
+		748E79CD25C7EC5300D7BE0E /* ProdDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +113,13 @@
 		746D65CA25C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566 */ = {
 			isa = PBXGroup;
 			children = (
-				746D65CB25C6309C00E92B06 /* AppDelegate.swift */,
-				746D65CD25C6309C00E92B06 /* SceneDelegate.swift */,
-				746D65CF25C6309C00E92B06 /* ViewController.swift */,
-				746D65D125C6309C00E92B06 /* Main.storyboard */,
-				746D65D725C6309F00E92B06 /* Assets.xcassets */,
-				746D65D925C6309F00E92B06 /* LaunchScreen.storyboard */,
+				A37F3B2725C701840085C3B5 /* ImageAssets */,
+				A37F3B2625C7016F0085C3B5 /* DataManager */,
+				A37F3B2525C701400085C3B5 /* LifeCycle */,
+				A37F3B2425C701350085C3B5 /* Storyboard */,
+				A37F3B2325C7012D0085C3B5 /* CustomCell */,
+				A37F3B2225C701230085C3B5 /* ViewController */,
 				746D65DC25C6309F00E92B06 /* Info.plist */,
-				746D65D425C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566.xcdatamodeld */,
 			);
 			path = A2_FA_iOS_Jigar_C0779566;
 			sourceTree = "<group>";
@@ -129,6 +140,61 @@
 				746D65F225C6309F00E92B06 /* Info.plist */,
 			);
 			path = A2_FA_iOS_Jigar_C0779566UITests;
+			sourceTree = "<group>";
+		};
+		A37F3B2225C701230085C3B5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				746D665125C658E200E92B06 /* ProdDisplayControllerViewController.swift */,
+				748E79CD25C7EC5300D7BE0E /* ProdDataViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A37F3B2325C7012D0085C3B5 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				7453047425C6776C00C7600B /* ProdTableViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		A37F3B2425C701350085C3B5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				746D65D925C6309F00E92B06 /* LaunchScreen.storyboard */,
+				746D65D125C6309C00E92B06 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		A37F3B2525C701400085C3B5 /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				746D65CB25C6309C00E92B06 /* AppDelegate.swift */,
+				746D65CD25C6309C00E92B06 /* SceneDelegate.swift */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		A37F3B2625C7016F0085C3B5 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				746D660125C632D600E92B06 /* Product+CoreDataClass.swift */,
+				746D660225C632D600E92B06 /* Product+CoreDataProperties.swift */,
+				746D660325C632D600E92B06 /* Provider+CoreDataClass.swift */,
+				746D660425C632D600E92B06 /* Provider+CoreDataProperties.swift */,
+				746D65D425C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566.xcdatamodeld */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A37F3B2725C701840085C3B5 /* ImageAssets */ = {
+			isa = PBXGroup;
+			children = (
+				746D65D725C6309F00E92B06 /* Assets.xcassets */,
+			);
+			path = ImageAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +327,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746D65D025C6309C00E92B06 /* ViewController.swift in Sources */,
+				746D665225C658E200E92B06 /* ProdDisplayControllerViewController.swift in Sources */,
 				746D65CC25C6309C00E92B06 /* AppDelegate.swift in Sources */,
+				746D660625C632D600E92B06 /* Product+CoreDataProperties.swift in Sources */,
+				746D660725C632D600E92B06 /* Provider+CoreDataClass.swift in Sources */,
 				746D65D625C6309C00E92B06 /* A2_FA_iOS_Jigar_C0779566.xcdatamodeld in Sources */,
+				748E79CE25C7EC5300D7BE0E /* ProdDataViewController.swift in Sources */,
+				7453047525C6776C00C7600B /* ProdTableViewCell.swift in Sources */,
+				746D660525C632D600E92B06 /* Product+CoreDataClass.swift in Sources */,
+				746D660825C632D600E92B06 /* Provider+CoreDataProperties.swift in Sources */,
 				746D65CE25C6309C00E92B06 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +497,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
