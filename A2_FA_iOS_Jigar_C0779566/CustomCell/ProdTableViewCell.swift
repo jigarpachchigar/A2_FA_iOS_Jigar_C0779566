@@ -10,14 +10,28 @@ import UIKit
 class ProdTableViewCell: UITableViewCell {
 
    
-    @IBOutlet weak var prodname: UILabel!
+    @IBOutlet var prodname: UILabel!
     
-    @IBOutlet weak var prodproname: UILabel!
+    @IBOutlet var prodproname: UILabel!
     
     
-    func prodcell(_ product: Product){
+    func prodcell(_ product: ProductData){
+        txtLeading.constant = 8
+        imgLeading.isHidden = true
+
         prodname.text = product.pname
-        prodproname.text = product.provider?.proname ?? ""
+        prodproname.text = product.providerName ?? ""
+    }
+    
+    @IBOutlet var txtLeading: NSLayoutConstraint!
+    
+    @IBOutlet var imgLeading: UIImageView!
+    func setProvider(provider: ProviderData) {
+        txtLeading.constant = 56
+        imgLeading.isHidden = false
+        
+        prodname.text = provider.proname
+        prodproname.text = "\(provider.count ?? 0)"
     }
     
     override func awakeFromNib() {
